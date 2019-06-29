@@ -1,13 +1,11 @@
 function checkbox(elem) {
 
 	var el = elem || 'input[type=checkbox]';
-
 	var key;
 
 	$(window).keydown(function(e) {
 		key = e.keyCode || e.which;
 	})
-
 
 	$(el).focus(function() {
 		if (key == 9) {
