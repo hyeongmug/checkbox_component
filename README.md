@@ -34,7 +34,7 @@ label.focus { outline: auto 5px -webkit-focus-ring-color; outline-offset: -2px; 
 label.active { background: orange; }
 input[type=checkbox] { position: absolute; z-index: -1; }
 ~~~
-## 1. 
+## 2. 웹접근성 
 ## 3. 데모
 
 ## 4. jsfiddle
