@@ -23,15 +23,15 @@ $(function(){
 ### 1.2. 마크업
 ~~~
 <label for="a">
-    <input type="checkbox" id="a" value="1" class="ex-checkbox"> 테스트1
+    <input type="checkbox" id="a" value="1"> 테스트1
 </label>
 
 <label for="b">
-    <input type="checkbox" id="b" value="2" class="ex-checkbox"> 테스트2
+    <input type="checkbox" id="b" value="2"> 테스트2
 </label>
 
 <label for="c">
-    <input type="checkbox" id="c" value="3" class="ex-checkbox"> 테스트3
+    <input type="checkbox" id="c" value="3"> 테스트3
 </label>
 ~~~
 ### 1.3. CSS 스타일
@@ -43,7 +43,18 @@ label.active { background: orange; }
 input[type=checkbox] { position: absolute; z-index: -1; }
 ~~~
 ### 1.4. 예제
-#### 1.4.1. 특정 클래스를 가진 체크박스에만 적용하고 싶은 경우
+#### 1.4.1. 모든 체크박스에 적용하고 싶은 경우
+~~~
+<label for="a">
+    <input type="checkbox" id="a" value="1"> 테스트1
+</label>
+<script>
+$(function(){
+	checkbox();
+});
+</script>
+~~~
+#### 1.4.2. 특정 클래스를 가진 체크박스에만 적용하고 싶은 경우
 ~~~
 <label for="a">
     <input type="checkbox" id="a" value="1" class="클래스명"> 테스트1
