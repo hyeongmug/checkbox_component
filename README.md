@@ -12,7 +12,7 @@ $(function(){
 	checkbox();
 });
 ~~~
-### 1.2 마크업
+### 1.2. 마크업
 ~~~
 <label for="a">
     <input type="checkbox" id="a" value="1"> 테스트1
@@ -26,7 +26,7 @@ $(function(){
     <input type="checkbox" id="c" value="3"> 테스트3
 </label>
 ~~~
-### 1.3
+### 1.3. CSS 스타일
 데모에서의 기본스타일은 아래와 같으며 얼마든지 커스터마이징하여 사용할 수 있습니다.
 ~~~
 label { background: gold; padding: 10px; margin: 0 5px; }
