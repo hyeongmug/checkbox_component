@@ -38,4 +38,4 @@ input[type=checkbox] { position: absolute; z-index: -1; }
 ## 3. 데모
 
 ## 4. jsfiddle
-['https://jsfiddle.net/7rng4akc/'](https://jsfiddle.net/7rng4akc/){: target="_blank" }
+(https://jsfiddle.net/7rng4akc/){: target="_blank" }
