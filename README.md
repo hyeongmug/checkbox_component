@@ -49,7 +49,7 @@ input[type=checkbox] { position: absolute; z-index: -1; }
 </label>
 <script>
 $(function(){
-	checkbox();
+    checkbox();
 });
 </script>
 ~~~
