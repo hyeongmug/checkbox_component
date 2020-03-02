@@ -68,6 +68,4 @@ $(function(){
 
 ## 2. 웹접근성
 ## 3. 데모
-
-## 4. jsfiddle
 https://jsfiddle.net/7rng4akc/
