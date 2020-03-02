@@ -1,4 +1,3 @@
-# Checkbox Component
 ## 1. 사용방법
 ### 1.1. 스크립트
 #### 1.1.1. jquery와 chexkbox.js로드
