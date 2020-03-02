@@ -8,7 +8,7 @@
 #### 1.1.2. 함수호출
 ~~~ js
 $(function(){
-	checkbox();
+    checkbox();
 });
 ~~~
 위 방법은 인자가 없는 경우로 모든 체크박스에 적용이 됩니다.
@@ -16,7 +16,7 @@ $(function(){
 인자로 클래스 이름을 넣어 특정 클래스를 가진 체크박스에만 적용시킬 수 있습니다.
 ~~~ js
 $(function(){
-	checkbox(".ex-checkbox");
+    checkbox(".ex-checkbox");
 });
 ~~~
 ### 1.2. 마크업
@@ -60,7 +60,7 @@ $(function(){
 </label>
 <script>
 $(function(){
-	checkbox('.클래스명');
+    checkbox('.클래스명');
 });
 </script>
 ~~~
